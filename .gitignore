@@ -1,0 +1,43 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+#db
+*.db
+
+# Go build artifacts
+/build/
+/bin/
+/dist/
+
+# Test results
+*.coverprofile
+*.test
+
+# Vendor dir (if not committing deps)
+vendor/
+
+# Dependency cache
+Gopkg.lock
+Gopkg.toml
+go.sum
+go.mod
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Env/config
+.env
+.env.*
