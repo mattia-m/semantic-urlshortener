@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"os"
 
-	"urlshortener/pkg/keyword"
-	"urlshortener/pkg/metadata"
-	"urlshortener/pkg/storage"
+	"github.com/mattia-m/semantic-urlshortener/pkg/keyword"
+	"github.com/mattia-m/semantic-urlshortener/pkg/metadata"
+	"github.com/mattia-m/semantic-urlshortener/pkg/storage"
 
 	"github.com/joho/godotenv"
 	_ "github.com/mattn/go-sqlite3"

@@ -29,8 +29,8 @@ A minimal URL shortening service written in Go, powered by OpenAI for automatic 
 ### 1. Clone and prepare
 
 ```bash
-git clone https://your-repo-url/urlshortener.git
-cd urlshortener
+git clone https://github.com/mattia-m/semantic-urlshortener.git
+cd semantic-urlshortener
 ```
 
 ### 2. Create .env file
